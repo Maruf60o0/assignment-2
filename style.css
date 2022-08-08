@@ -1,0 +1,166 @@
+body{
+    margin: 0 auto;
+    
+}
+.container{
+    width: 90%;
+    height: 678px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 156px;
+    border-radius: 60px;
+    background-color: black;
+    margin: 30px auto;
+}
+.header{
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: absolute;
+}
+.header-right {
+    position: relative;
+    left: 70px;
+}
+.header-right h1{
+    font-size: 60px;
+    margin-bottom: 0px;
+}
+.header-right p{
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+.header-right a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 3px;
+    color: white;
+    background-color: red;
+    margin: 29px 0px 32px 0px;
+}
+
+
+.header-left{
+    position: relative;
+    left: 24%;
+    top: 24%;
+}
+.header-left img{
+    width: 80%;
+    position: absolute;
+}
+
+/* body part */
+
+.container02{
+    margin-top: 150px;
+    display: flex;
+    
+}
+.body-part{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+.blackbg{
+    margin-top:-16px;
+}
+.option{
+    display: flex;
+    flex-direction: column;
+    border-radius: 3%;
+    margin: 16px;
+    height: 327px;
+    width: 338px;
+    justify-content: center;
+    align-items: center;
+    background-color: #161616;
+}
+.option .baton{
+    margin: 11px;
+    border: 1px solid white;
+    font-size: 26px;
+    padding: 20px 40px;
+    border-radius: 5%;
+    text-decoration: none;
+    background-color: whitesmoke;
+    color: black;
+    height: 35px;
+    width: 160px;
+    text-align: center;
+}
+#blogred{
+    margin: 11px;
+    font-size: 26px;
+    padding: 20px 40px;
+    border-radius: 5%;
+    text-decoration: none;
+    background-color:red;
+    color: white;
+    height: 35px;
+    width: 160px;
+    text-align: center;
+}
+.sports-link{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+    margin-left: 18px;
+}
+.sports-body{
+    margin-bottom: 30px;
+}
+.link-box{
+    margin-bottom: 15px;
+    border-bottom: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+.link-box a{
+    border: 1px solid gray;
+    border-radius: 2%;
+}
+
+/* Footer */
+
+
+footer{
+    padding: 100px 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Poppins, sans-serif;
+}
+footer >  ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul > li{
+    margin: 0 33px;
+}
+
+/* second page or match page */
+
+
+.sports-body{
+    border: 1px solid gainsboro;
+    border-radius: 5%;
+    padding: 30px;
+}
+
+.sports-img{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+.sports-img span{
+    margin: 20px;
+}
+.sports-description{
+    display: flex;
+    justify-content: space-around;
+}
