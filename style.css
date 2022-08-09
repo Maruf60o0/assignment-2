@@ -56,7 +56,7 @@ body{
 
 .container02{
     margin-top: 150px;
-    display: flex;
+    display: inline-block;
     
 }
 .body-part{
@@ -125,15 +125,16 @@ body{
 
 /* Footer */
 
-
 footer{
-    padding: 100px 0;
+    padding: 100px;
     background-color: black;
     color: white;
     text-align: center;
     font-family: Poppins, sans-serif;
 }
+
 footer >  ul{
+    
     list-style: none;
     display: flex;
     justify-content: center;
